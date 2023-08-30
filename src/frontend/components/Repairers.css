@@ -1,0 +1,42 @@
+/* Repairers.css */
+.repairers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .repairer-card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Add transition for shadow effect */
+    overflow: hidden;
+  }
+  
+  .repairer-card:hover {
+    transform: translateY(-5px); /* Add translateY for hover effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow for hover effect */
+  }
+  
+  /* ... (other styles) */
+  
+  
+  .repairer-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .repairer-card p {
+    margin-bottom: 15px;
+  }
+  
+  .repairer-card button {
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  

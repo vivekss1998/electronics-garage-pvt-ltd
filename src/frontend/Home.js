@@ -73,12 +73,12 @@ const categories = [
       {
         id: 3,
         name: 'TV Repair',
-        image: 'https://via.placeholder.com/100x100', // Replace with image URL
-      },
+    },
       {
         id: 4,
         name: 'Audio System Repair',
         image: 'https://via.placeholder.com/100x100', // Replace with image URL
+    image: 'https://via.placeholder.com/100x100', // Replace with image URL
       },
       {
         id: 5,

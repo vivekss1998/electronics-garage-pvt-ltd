@@ -1,15 +1,19 @@
+// App.js
 import React from 'react';
-import Header from './frontend/Header';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './frontend/Home';
-import './App.css'; // You can include your global styles here
-import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
+import Repairers from './frontend/components/Repairers';
+import Profile from './frontend/components/Profile'; // Import Profile component
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/repairers" element={<Repairers />} />
+        <Route path="/repairers/:repairerId" element={<Profile />} /> {/* Add Profile route */}
+      </Routes>
+    </Router>
   );
 }
 
