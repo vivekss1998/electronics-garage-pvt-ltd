@@ -1,0 +1,31 @@
+/* Profile.css */
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .right-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-card {
+    /* Image card styles */
+  }
+  
+  .experience-education-card {
+    margin-bottom: 20px;
+    /* Experience and education card styles */
+  }
+  
+  .contact-info-card {
+    /* Contact info card styles */
+  }
+  
