@@ -1,0 +1,61 @@
+/* CategoryCard.css */
+.category-card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 20px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px; /* Add rounded edges */
+    overflow: hidden; /* Hide any content that overflows the rounded edges */
+  }
+  
+  /* ... (other styles for the CategoryCard) */
+  
+  
+  .p-card {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .p-card-title {
+    font-size: 18px;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  .p-card-header img {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Generate unique gradients */
+.gradient-1 {
+    background: linear-gradient(to right, #FF6B6B, #FF8E53);
+  }
+  
+  .gradient-2 {
+    background: linear-gradient(to right, #A8FF78, #78FFD6);
+  }
+  
+  .gradient-3 {
+    background: linear-gradient(to right, #FFD700, #FF8C00);
+  }
+  .gradient-4 {
+    background: linear-gradient(to right, #FF6B6B, #FF8E53);
+  }
+  
+  .gradient-5 {
+    background: linear-gradient(to right, #A8FF78, #78FFD6);
+  }
+  
+  .gradient-6 {
+    background: linear-gradient(to right, #FFD700, #FF8C00);
+  }

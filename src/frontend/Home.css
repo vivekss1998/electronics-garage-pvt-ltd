@@ -1,0 +1,22 @@
+/* Home.css */
+.content {
+    /* Your existing styles for the content section */
+  }
+  
+  .slider-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    height: 400px; /* Set the desired height */
+  }
+  
+  .category-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
